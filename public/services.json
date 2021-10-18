@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "Complete exams, x-rays,cleanings",
+        "description": "A comprehensive dental exam will be performed by one of our expert dentists at your initial dental visit. At regular check-up exams, your dentist and hygienist will perform.",
+        "dentist": "Prof. Dr. Aslam Almehdi",
+        "position": "Delta Medical College & Hospital",
+        "phone": "01778883265",
+        "degree": "Ph.D., M.S., B.D.S., FIAOO",
+        "img":"https://i.ibb.co/vZv7nsP/1.png",
+        "cost": 1200
+    },
+    {
+        "id": 2,
+        "name": "Fillings, root canals,extractions",
+        "description": "Root fillings fill the tube from the part of the tooth you can see to the end of your root underneath your gum. Extraction is the complete removal of a tooth from your mouth. This means loss of the tooth, but also the source of the infection which is causing any pain.",
+        "dentist": "DR. Mohammad Emran",
+        "position": "Associate Professor and Head",
+        "phone": "01764198438",
+        "degree": "BDS, MS (OMS)",
+        "img":"https://i.ibb.co/xfTRrDj/2.png",
+        "cost": 1200
+    },
+    {
+        "id": 3,
+        "name": "Cosmetic dentistry,hitening",
+        "description": "If your teeth are stained, discolored, worn, chipped, broken, misaligned, misshapen, or have gaps between them, modern cosmetic dentistry can give you a better smile. A “smile makeover” improves the appearance of your smile through one or more cosmetic dentistry procedures. Cosmetic dentists work with you to develop a treatment plan. ",
+        "dentist": "Dr. Md. Shafi Ullah",
+        "position": "Associate Professor & Head of Department",
+        "phone": "+880-2-9355801-2",
+        "degree": "MBBS, MS, BDS, MCPS, MDRA(USA)",
+        "img":"https://i.ibb.co/N7hRsYt/10.png",
+        "cost": 1200
+    },
+    {
+        "id": 4,
+        "name": "Implants-placement,restoration",
+        "description": "A dental implant is used to support one or more false teeth. It is a titanium screw that can replace the root of a tooth when it fails. Just like a tooth root, it is placed into the jawbone.",
+        "dentist": "Dr. Md. Shamsul Alam",
+        "position": "Professor & Chairman Dentist",
+        "phone": "+880-2-9612345-54",
+        "degree": "BDS, DCD(USSR), FADI(USA)",
+        "img":"https://i.ibb.co/7XkNTGL/9.png",
+        "cost": 1200
+    },
+    {
+        "id": 5,
+        "name": "Crowns, bridges, dentures",
+        "description": "Partial dentures are used when one or more natural teeth remain in the upper or lower jaw. A fixed (permanent) bridge replaces one or more teeth by placing crowns on the teeth on either side of the space and attaching artificial teeth to them. This “bridge” is then cemented into place.",
+        "dentist": "Dr. Khandaker Abdul Azim",
+        "position": "Lecturer, Dept. of Conservative Dentistry",
+        "phone": "+880-2-9188143",
+        "degree": "BDS, Dip, OMS ( Australia )",
+        "img":"https://i.ibb.co/SKRJtyk/8.png",
+        "cost": 1200
+    },
+    {
+        "id": 6,
+        "name": "Implants",
+        "description": "Dental implants are replacement tooth roots. Implants provide a strong foundation for fixed (permanent) or removable replacement teeth that are made to match your natural teeth.",
+        "dentist": "Dr. Clopa Pina Podder",
+        "position": "Professor and Head, Department of Oral",
+        "phone": "+880-2-91296625-6",
+        "degree": "BDS, PGT ( BSMMU )",
+        "img":"https://i.ibb.co/xD3r1NJ/7.png",
+        "cost": 1200
+    },
+    {
+        "id": 7,
+        "name": "Orthodontics",
+        "description": "Orthodontics is a branch of dentistry that treats malocclusion, a condition in which the teeth are not correctly positioned when the mouth is closed. This results in an improper bite. An orthodontist specializes in making the teeth straight.",
+        "dentist": "Dr.Debashis Dey",
+        "position": "Assistant Professor & Head Of Department",
+        "phone": "01920130000",
+        "degree": "BDS(DU) MPH, PGT(OMFS)",
+        "img":"https://i.ibb.co/xJQYstT/6.png",
+        "cost": 1200
+    },
+    {
+        "id": 8,
+        "name": "Oral appliances for control",
+        "description": "The most widely used mouth device for sleep apnea, MADs look much like a mouth guard used in sports. The devices snap over the upper and lower dental arches and have metal hinges that make it possible for the lower jaw to be eased forward.",
+        "dentist": "Dr. Nurul Amin",
+        "position": "Associate Professor & Head",
+        "phone": "+880 1914553088",
+        "degree": "BDS, Ph.D. ",
+        "img":"https://i.ibb.co/svSJKCB/5.png",
+        "cost": 1200
+    },
+    {
+        "id": 9,
+        "name": "Preventive care, periodontal",
+        "description": "Hippocrates is considered the father of modern medicine. This famous quote is often used because it so succinctly expressed the importance of our daily food choices. The relevance this phrase has is stronger than ever. Nutrition is an underlying theme for just about every health concern we experience today.",
+        "dentist": "Dr. Sk. Nazrul Islam",
+        "position": "Assistant Professor & Head of Department",
+        "phone": "+8801711528345",
+        "degree": "BDS (DU), PGT (BK), FAES (USA)",
+        "img":"https://i.ibb.co/d5BgqG6/4.png",
+        "cost": 1200
+    },
+    {
+        "id": 10,
+        "name": "Relaxation techniques",
+        "description": "Your dentist may recommend an intravenous or ‘IV' sedation. This is given by injection, either in the back of your hand or in your arm. The dose will depend on the amount of treatment needed and how long it will take to complete.",
+        "dentist": "Dr. Salahuddin (Swapan)",
+        "position":"Assistant Professor & Head of Department",
+        "phone":"+880 1711958143",
+        "degree":"B.D.S, FCPS",
+        "img":"https://i.ibb.co/3sZ8jbP/3.png",
+        "cost": 1200
+    }
+]
