@@ -1,7 +1,5 @@
 import './App.css';
 import Home from './Pages/Home/Home/Home';
-import Header from './Pages/Shared/Header/Header';
-import Footer from './Pages/Shared/Footer/Footer';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Service from './Pages/Home/Service/Service';
 import Login from './Pages/Login/Login';
@@ -9,6 +7,7 @@ import Signin from './Pages/Signin/Signin';
 import Campaign from './Pages/Campaign/Campaign';
 import Error from './Pages/Error/Error';
 import Services from './Pages/Home/Services/Services';
+import Camp from './Pages/Camp/Camp';
 
 function App() {
   return (
@@ -26,7 +25,7 @@ function App() {
             <Services></Services>
           </Route>
           <Route path='/service'>
-            <Services></Services>
+            <Service></Service>
           </Route>
           <Route path='/login'>
             <Login></Login>
@@ -36,6 +35,9 @@ function App() {
           </Route>
           <Route path='/campaign'>
             <Campaign></Campaign>
+          </Route>
+          <Route path='/camp'>
+            <Camp></Camp>
           </Route>
           <Route path='*'>
             <Error></Error>

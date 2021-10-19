@@ -8,11 +8,11 @@ const Services = () => {
     useEffect(() => {
         fetch('/services.json')
             .then(res => res.json())
-            .then(data => setServices(data))
+            .then(data => setServices(data.slice(0,6)))
     },[])
     return (
         <div className="container mt-5 pt-5">
-            <h1 className="text-start text-info fw-bold pb-5"><u>Our Services</u></h1>
+            <h1 className="text-start text-info fw-bold pb-5"><u>Our Department</u></h1>
             <Container>
                 <Row className="g-4">
             {

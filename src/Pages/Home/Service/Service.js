@@ -4,20 +4,16 @@ import { Link } from 'react-router-dom';
 
 const Service = ({ service }) => {
     const { name, description, dentist, position, degree, phone, img } = service;
-    const details= description.slice(0,120)
+    const details= description.slice(0,150)
     return (
         <Col xs={12} sm={6} md={4} >
-            <Card  className="border-info bg-primary text-light rounded rounded-3">
-                <Card.Img variant="top" src={img} />
+            <Card className="border-secondary bg-primary shadow shadow-lg bg-gradient text-light rounded rounded-3">
                 <Card.Body>
-                    <Card.Title className="">{name}</Card.Title>
-                    <Card.Subtitle className="my-3 fs-4 fw-bold">{dentist}</Card.Subtitle>
-                    <Card.Subtitle className="mb-3">{degree}</Card.Subtitle>
-                    <Card.Subtitle className="mb-3">{position}</Card.Subtitle>
-                    <Card.Text>
+                    <Card.Title className=" fs-3">{name}</Card.Title>
+                    <Card.Text className=" pt-3">
                         {details}
                     </Card.Text>
-                    <Link to="/services"><Button className="px-3 fw-bold" variant="light">Details </Button></Link>
+                    <Link to="/services"><button className="px-3 btn btn-warning fw-bold" variant="light">Details </button></Link>
                 </Card.Body>
             </Card>
         </Col>

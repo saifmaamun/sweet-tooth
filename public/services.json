@@ -55,16 +55,28 @@
         "cost": 1200
     },
     {
-        "id": 6,
-        "name": "Implants",
-        "description": "Dental implants are replacement tooth roots. Implants provide a strong foundation for fixed (permanent) or removable replacement teeth that are made to match your natural teeth.",
-        "dentist": "Dr. Clopa Pina Podder",
-        "position": "Professor and Head, Department of Oral",
-        "phone": "+880-2-91296625-6",
-        "degree": "BDS, PGT ( BSMMU )",
-        "img":"https://i.ibb.co/xD3r1NJ/7.png",
+        "id": 8,
+        "name": "Oral appliances for control",
+        "description": "The most widely used mouth device for sleep apnea, MADs look much like a mouth guard used in sports. The devices snap over the upper and lower dental arches and have metal hinges that make it possible for the lower jaw to be eased forward.",
+        "dentist": "Dr. Nurul Amin",
+        "position": "Associate Professor & Head",
+        "phone": "+880 1914553088",
+        "degree": "BDS, Ph.D. ",
+        "img":"https://i.ibb.co/svSJKCB/5.png",
         "cost": 1200
     },
+    {
+        "id": 10,
+        "name": "Relaxation techniques",
+        "description": "Your dentist may recommend an intravenous or ‘IV' sedation. This is given by injection, either in the back of your hand or in your arm. The dose will depend on the amount of treatment needed and how long it will take to complete.",
+        "dentist": "Dr. Salahuddin (Swapan)",
+        "position": "Assistant Professor & Head of Department",
+        "phone": "+880 1711958143",
+        "degree": "B.D.S, FCPS",
+        "img": "https://i.ibb.co/3sZ8jbP/3.png",
+        "cost": 1200
+    },
+    
     {
         "id": 7,
         "name": "Orthodontics",
@@ -74,17 +86,6 @@
         "phone": "01920130000",
         "degree": "BDS(DU) MPH, PGT(OMFS)",
         "img":"https://i.ibb.co/xJQYstT/6.png",
-        "cost": 1200
-    },
-    {
-        "id": 8,
-        "name": "Oral appliances for control",
-        "description": "The most widely used mouth device for sleep apnea, MADs look much like a mouth guard used in sports. The devices snap over the upper and lower dental arches and have metal hinges that make it possible for the lower jaw to be eased forward.",
-        "dentist": "Dr. Nurul Amin",
-        "position": "Associate Professor & Head",
-        "phone": "+880 1914553088",
-        "degree": "BDS, Ph.D. ",
-        "img":"https://i.ibb.co/svSJKCB/5.png",
         "cost": 1200
     },
     {
@@ -99,14 +100,14 @@
         "cost": 1200
     },
     {
-        "id": 10,
-        "name": "Relaxation techniques",
-        "description": "Your dentist may recommend an intravenous or ‘IV' sedation. This is given by injection, either in the back of your hand or in your arm. The dose will depend on the amount of treatment needed and how long it will take to complete.",
-        "dentist": "Dr. Salahuddin (Swapan)",
-        "position":"Assistant Professor & Head of Department",
-        "phone":"+880 1711958143",
-        "degree":"B.D.S, FCPS",
-        "img":"https://i.ibb.co/3sZ8jbP/3.png",
+        "id": 6,
+        "name": "Implants",
+        "description": "Dental implants are replacement tooth roots. Implants provide a strong foundation for fixed (permanent) or removable replacement teeth that are made to match your natural teeth.",
+        "dentist": "Dr. Clopa Pina Podder",
+        "position": "Professor and Head, Department of Oral",
+        "phone": "+880-2-91296625-6",
+        "degree": "BDS, PGT ( BSMMU )",
+        "img": "https://i.ibb.co/xD3r1NJ/7.png",
         "cost": 1200
     }
 ]
