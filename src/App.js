@@ -7,44 +7,43 @@ import Signin from './Pages/Signin/Signin';
 import Campaign from './Pages/Campaign/Campaign';
 import Error from './Pages/Error/Error';
 import Services from './Pages/Home/Services/Services';
-import Camp from './Pages/Camp/Camp';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        
-        <Switch>
-          <Route exact path='/'>
-            <Home></Home>
-          </Route>
-          <Route path='/home'>
-            <Home></Home>
-          </Route>
-          <Route path='/services'>
-            <Services></Services>
-          </Route>
-          <Route path='/service'>
-            <Service></Service>
-          </Route>
-          <Route path='/login'>
-            <Login></Login>
-          </Route>
-          <Route path='/signin'>
-            <Signin></Signin>
-          </Route>
-          <Route path='/campaign'>
-            <Campaign></Campaign>
-          </Route>
-          <Route path='/camp'>
-            <Camp></Camp>
-          </Route>
-          <Route path='*'>
-            <Error></Error>
-          </Route>
-        </Switch>
-        
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path='/'>
+              <Home></Home>
+            </Route>
+            <Route path='/home'>
+              <Home></Home>
+            </Route>
+            <Route path='/services'>
+              <Services></Services>
+            </Route>
+            <Route path='/service'>
+              <Service></Service>
+            </Route>
+            <Route path='/login'>
+              <Login></Login>
+            </Route>
+            <Route path='/signin'>
+              <Signin></Signin>
+            </Route>
+            <PrivateRoute path='/campaign'>
+              <Campaign></Campaign>
+            </PrivateRoute>
+            <Route path='*'>
+              <Error></Error>
+            </Route>
+          </Switch>
+
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

@@ -1,11 +1,13 @@
 import React from 'react';
-import { Button, Col, Container, FloatingLabel, Form, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import logImg from '../../images/Login/log-bg.png'
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
 
 const Login = () => {
+    const {signinUsingGoogle} = useAuth();
     return (
         <div>
             <Header></Header>
@@ -30,7 +32,7 @@ const Login = () => {
                                     <Button className="my-3">Log In</Button>
                                     <br />
                                     <p>=====Or Sign in With Google=====</p>
-                                    <Button>Sign In With Google</Button>
+                                    <Button onClick={signinUsingGoogle}>Sign In With Google</Button>
                                     <br />
                                     <br />
                                     <Link to='/signin'><p>New User?</p></Link>
