@@ -8,7 +8,8 @@
         "phone": "01778883265",
         "degree": "Ph.D., M.S., B.D.S., FIAOO",
         "img":"https://i.ibb.co/vZv7nsP/1.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https://www.sudleymanordentalcare.com/wp-content/uploads/Cleaning-Exam-XRays[1].jpg"
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
         "phone": "01764198438",
         "degree": "BDS, MS (OMS)",
         "img":"https://i.ibb.co/xfTRrDj/2.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https://smile-creator.com/wp-content/uploads/2020/05/root-canal-monroe-la-finley.jpg"
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
         "phone": "+880-2-9355801-2",
         "degree": "MBBS, MS, BDS, MCPS, MDRA(USA)",
         "img":"https://i.ibb.co/N7hRsYt/10.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https://www.burgesshilldental.co.uk/wp-content/uploads/2016/10/Cosmetic-Dentistry-tooth-whitening-page-pdf.jpg"
     },
     {
         "id": 4,
@@ -41,7 +44,8 @@
         "phone": "+880-2-9612345-54",
         "degree": "BDS, DCD(USSR), FADI(USA)",
         "img":"https://i.ibb.co/7XkNTGL/9.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https://dainamdental.com/wp-content/uploads/2018/06/implant5.jpg"
     },
     {
         "id": 5,
@@ -52,7 +56,8 @@
         "phone": "+880-2-9188143",
         "degree": "BDS, Dip, OMS ( Australia )",
         "img":"https://i.ibb.co/SKRJtyk/8.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https://shreejidentalandheri.com/wp-content/uploads/2019/12/crowns1-300x131.jpg"
     },
     {
         "id": 8,
@@ -63,7 +68,8 @@
         "phone": "+880 1914553088",
         "degree": "BDS, Ph.D. ",
         "img":"https://i.ibb.co/svSJKCB/5.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https://sleepsolutionvirginia.com/site/uploads/2019/03/IN-MOUTH-4MEG-small.jpg"
     },
     {
         "id": 10,
@@ -74,7 +80,8 @@
         "phone": "+880 1711958143",
         "degree": "B.D.S, FCPS",
         "img": "https://i.ibb.co/3sZ8jbP/3.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https: //smile-creator.com/wp-content/uploads/2020/05/root-canal-monroe-la-finley.jpg"
     },
     
     {
@@ -86,7 +93,8 @@
         "phone": "01920130000",
         "degree": "BDS(DU) MPH, PGT(OMFS)",
         "img":"https://i.ibb.co/xJQYstT/6.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https: //smile-creator.com/wp-content/uploads/2020/05/root-canal-monroe-la-finley.jpg"
     },
     {
         "id": 9,
@@ -97,7 +105,8 @@
         "phone": "+8801711528345",
         "degree": "BDS (DU), PGT (BK), FAES (USA)",
         "img":"https://i.ibb.co/d5BgqG6/4.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https: //smile-creator.com/wp-content/uploads/2020/05/root-canal-monroe-la-finley.jpg"
     },
     {
         "id": 6,
@@ -108,6 +117,7 @@
         "phone": "+880-2-91296625-6",
         "degree": "BDS, PGT ( BSMMU )",
         "img": "https://i.ibb.co/xD3r1NJ/7.png",
-        "cost": 1200
+        "cost": 1200,
+        "serviceImg": "https: //smile-creator.com/wp-content/uploads/2020/05/root-canal-monroe-la-finley.jpg"
     }
 ]

@@ -20,7 +20,7 @@ const Services = () => {
                     key={service.id}
                     service={service}
                 ></Service>)
-            }       
+            }
                 </Row>
             </Container>
             
