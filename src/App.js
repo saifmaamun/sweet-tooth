@@ -6,7 +6,7 @@ import Login from './Pages/Login/Login';
 import Signin from './Pages/Signin/Signin';
 import Campaign from './Pages/Campaign/Campaign';
 import Error from './Pages/Error/Error';
-import Services from './Pages/Home/Services/Services';
+import Departments from './Pages/Departments/Departments';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 
@@ -22,10 +22,10 @@ function App() {
             <Route path='/home'>
               <Home></Home>
             </Route>
-            <Route path='/services'>
-              <Services></Services>
-            </Route>
-            <Route path='/service'>
+            <PrivateRoute path='/departments'>
+              <Departments></Departments>
+            </PrivateRoute>
+            <Route path='/service/serviceId'>
               <Service></Service>
             </Route>
             <Route path='/login'>
