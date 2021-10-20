@@ -1,26 +1,27 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const { user, logout } = useAuth();
     return (
         <div>
             <>
-                <Navbar className="fw-bold"collapseOnSelect expand="sm" bg="warning" variant="dark">
+                <Navbar className="fw-bold"collapseOnSelect expand="sm" bg="primary" variant="dark">
                     <Container>
                         <Navbar.Brand href="/">Sweeth Tooth</Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-end">
                         <Nav className="me-auto">
-                            <Link to="/home">Home</Link>
-                            <Link to="/departments">Departments</Link>
-                            <Link to="/campaign">Campaign</Link>
+                                <Nav.Link as={HashLink} to="/home">Home</Nav.Link >
+                                <Nav.Link as={HashLink} to="/departments">Departments</Nav.Link >
+                                <Nav.Link as={HashLink} to="/campaign">Campaign</Nav.Link >
+                                <Nav.Link as={HashLink} to="/home#services">services</Nav.Link>
                             </Nav>
                             <Nav className="me">
-                                <Link to="/login">Login</Link>
-                                <Link to="/signin">Register</Link>
+                                <Nav.Link as={HashLink} to="/login">Login</Nav.Link>
+                                <Nav.Link as={HashLink} to="/signin">Register</Nav.Link>
                             </Nav>
                             {user?.email && <Navbar.Text>
                                 Signed in as:<span className=" px-1 text-dark fw-bold"> {user.displayName}</span>

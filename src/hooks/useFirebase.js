@@ -13,42 +13,48 @@ import initializeAuthentication from "../Firebase/firebase.init";
 
 
 initializeAuthentication();
+
+
 const useFirebase = () => {
     const [user, setUser] = useState({})
+    const[isLoading,setIsLoading]=useState(true)
     const [error, setError] = useState('')
     const auth = getAuth()
 
     const googleProvider = new GoogleAuthProvider();
 
     const signinUsingGoogle = () => {
+        setIsLoading(true)
         signInWithPopup(auth, googleProvider)
             .then(result => {
                 console.log(result.user)
                 setUser(result.user)
             })
-            .catch(error => {
-                setError(error.message)
-            })
-
+            .finally(()=>setIsLoading(false))
         }
 
     const logout = () => {
+        setIsLoading(true)
         signOut(auth)
             .then(() => {
                 setUser({})
             })
-            .catch(error => {
-                setError(error.message)
-            })
+        .finally(()=>setIsLoading(false))
     }
     
     useEffect(() => {
-        onAuthStateChanged(auth, user => {
+        const unsubscribed = onAuthStateChanged(auth, (user) => {
             if (user) {
-                setUser(user)
+                setUser(user);
             }
-            })
-    },[])
+            else {
+                setUser({});
+            }
+            setIsLoading(false)
+        });
+
+        return () => unsubscribed;
+    }, [])
     
 // new user registration
     const registerNewUser = (email, password) => {
@@ -102,7 +108,8 @@ const useFirebase = () => {
             logout,
             signinUsingGoogle,
             handleUserLogin,
-            registerNewUser
+        registerNewUser,
+        isLoading
         }
 }
 

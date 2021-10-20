@@ -7,7 +7,7 @@ import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
 
 const Login = () => {
-    const { signinUsingGoogle, handleUserLogin} = useAuth();
+    const { signinUsingGoogle, handleUserLogin,error} = useAuth();
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -43,6 +43,7 @@ const Login = () => {
                                 <br />
                                 <input onBlur={hanldePassword} className="w-100 py-3 rounded border-info" type="password" name="" placeholder="Password" />
                                 <br />
+                                <div className="row mb-3 text-danger">{error}</div>
                                 <br />
                                 <div className="text-center">
                                     <Button onClick={handleLogin} className="my-3">Log In</Button>
